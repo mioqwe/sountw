@@ -171,7 +171,7 @@
 
     <div>
         <button
-            class="text-white border-2 border-gray-300 rounded text-black px-2 py-1"
+            class="border-2 border-gray-300 rounded-md text-black px-2 py-1 font-bold"
             on:click={() => {
                 nextTrack(queue, currentTrack);
             }}
